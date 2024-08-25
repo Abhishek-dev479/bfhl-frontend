@@ -7,7 +7,7 @@ function App() {
   const [responseData, setResponseData] = useState(null);
   const [selectedOptions, setSelectedOptions] = useState([]);
 
-  const base_url = 'http://localhost:3001';
+  const base_url = 'https://bfhl-backend-7lp0.onrender.com';
 
   const handleInputChange = (e) => {
     setJsonInput(e.target.value);
